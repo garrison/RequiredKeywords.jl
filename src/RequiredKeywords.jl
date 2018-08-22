@@ -23,6 +23,7 @@ module RequiredKeywords
     keywords must always be specified. If they are not, a `UnassignedKeyword` exception is thrown.
     """
     macro required_keywords(exp)
+        exp
     end
 
     macro showexp(exp)
